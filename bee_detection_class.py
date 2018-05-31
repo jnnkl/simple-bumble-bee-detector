@@ -15,7 +15,7 @@ import numpy as np
 import matplotlib.patches as patches
 from scipy import ndimage as ndi
 
-#model_classifyer4_april werkt eigenlijk het beste
+
 # load json and create model
 json_file = open('classifyer/model_classifyer4_april.json', 'r')
 loaded_model_json = json_file.read()
